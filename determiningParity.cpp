@@ -1,4 +1,4 @@
-/*This program prompts a user to enter a positive integer, anc determines its parity*/
+/*This program prompts a user to enter a positive integer, and determines its parity*/
 #include <iostream>
 using namespace std;
 
