@@ -1,5 +1,5 @@
 /*
-K-Combinations Problem That Calls Funations: Write a program that reads from the user two positive integers n, k (n >= k)
+K-Combinations Problem That Calls Functions: Write a program that reads from the user two positive integers n, k (n >= k)
 and prints the value of n choose k.
 
 Formula: n!/(k!*(n-k)!)
@@ -11,15 +11,7 @@ Example: Please enter n and k (k<= n):
 #include <iostream>
 using namespace std;
 
-int factorial(int num){
-        int factRes, i;
-        
-        factRes = 1;
-        for(i = 1; i <= num; i++)
-            factRes *= i;
-            
-        return factRes;
-        }
+int factorial(int num);
 
 int main(){
     int n, k, nFact, kFact, n_kFact, k_comb;
@@ -39,3 +31,13 @@ int main(){
         
         return 0;
     }
+
+int factorial(int num){
+        int factRes, i;
+        
+        factRes = 1;
+        for(i = 1; i <= num; i++)
+            factRes *= i;
+            
+        return factRes;
+        }
