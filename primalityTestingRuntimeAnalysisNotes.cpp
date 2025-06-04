@@ -15,6 +15,7 @@ bool isPrimeV1(int num){
 }
 // T1(n) = 1 + 1 + 5*n + 2
 // T1(n) = 5n + 4
+// T1(n) = Θ(n)
 
 
 //Primality Testing Version 2
@@ -29,6 +30,7 @@ bool isPrimeV2(int num){
 // T2(n) = 1 + 1 + 6*(n/2) + 2
 // T2(n) =  6/2*n + 2
 // T2(n) = 3n + 4
+// T2(n) = Θ(n)
 
 
 // Primality Testing Version 3
@@ -42,3 +44,4 @@ bool isPrimeV3(int num){
 }
 // T3(n) = 1 + 1 + 6*sqrt(n) + 2
 // T3(n) = 6sqrt(n) + 4
+// T3(n) = Θ(sqrt(n))
