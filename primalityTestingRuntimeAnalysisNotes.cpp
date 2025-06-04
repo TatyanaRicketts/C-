@@ -45,3 +45,9 @@ bool isPrimeV3(int num){
 // T3(n) = 1 + 1 + 6*sqrt(n) + 2
 // T3(n) = 6sqrt(n) + 4
 // T3(n) = Θ(sqrt(n))
+
+/*
+Conclusions: 
+T1(n) and T2(n) are both asymptotically equivalent.
+T3(n) is asymptotically better than T1(n) and T2(n).
+*/
