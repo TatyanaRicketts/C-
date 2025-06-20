@@ -7,7 +7,7 @@ int main()
     int numbers[10] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};//array for 11 integers
     
     
-    //change the 11th number 200
+    //change the 10th number 200
     numbers[9] = 200;
     
     for(int i = 0; i < 10; i++){
