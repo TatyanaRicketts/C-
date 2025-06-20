@@ -12,7 +12,7 @@ int main()
     }
     
     
-    //change the 11th number 200
+    //change the 10th number 200
     numbers[9] = 200;
     
     for(int i = 0; i < 10; i++){
